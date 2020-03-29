@@ -1,0 +1,22 @@
+.profile{
+    display: flex;
+    border-bottom: 2px solid lightgray;
+}
+.profile img{
+    height: 250px;
+    width: 250px;
+    margin: auto;
+}
+
+.information{
+    margin-left: 30px;
+    color: blue;
+}
+
+.main-button{
+    width: 150px;
+    height: 30px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    cursor: pointer;
+}
