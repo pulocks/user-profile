@@ -1,11 +1,12 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlus } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import './Profile.css';
 
 const Profile = (props) => {
 
     const {name, img, phone, email, salary} = props.users;
+    
     return (
         <div className="profile">
             <div className="image">
